@@ -1,0 +1,79 @@
+
+.menuimg {
+  position: relative;
+  top: 19px;
+  left: 35.5px;
+}
+
+.Backarrow {
+  width: 15.5px;
+  height: 15.5px;
+  position: absolute;
+  left: 158.5px;
+}
+
+.rightarrow {
+  position: relative;
+  padding-left: 201.5px;
+  bottom: 18px;
+
+}
+
+aside {
+  width: 12%;
+  height: 993px;
+  background: #113250;
+  float: left;
+  }
+
+  .menu {
+    padding-left: 15px;
+    padding-top: 27px;
+    padding-bottom: 38px;
+    color: white;
+    cursor: pointer;
+  }
+  .menu:hover {
+    background: #13293E;
+    cursor: pointer;
+  }
+
+  .navigation {
+  }
+
+  ul {
+    li {
+      cursor: pointer;
+
+      a {
+        height: 59px;
+        display: block;
+        color: white;
+
+
+
+        .subtitle {
+          position: relative;
+          padding-left: 89px;
+        }
+      }
+
+      &.active {
+        background: #13293E;
+        border-left: #9FB952 solid 10px;
+        .subtitle{
+          margin-left: -10px;
+        }
+        .menuimg{
+          margin-left: -10px;
+        }
+      }
+    }
+
+  }
+
+  li:hover {
+    background: #13293E;
+  }
+
+

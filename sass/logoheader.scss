@@ -1,0 +1,141 @@
+.title {
+	width: 88%;
+	height: 42px;
+	background: #1AAAE2;	
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+header {
+	height: 87px;
+}
+
+h2 {
+	font: Semibold 28px/38px Open Sans;
+	font-size: 31px;
+	color: #054A6F;
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 22px;
+}
+
+h1 {
+	font-size: 28px;
+	font: Bold 31px/42px Open Sans;
+	color: #FFFFFF;
+	padding-left: 41.98px;
+	text-align: left;
+}
+
+header {
+	height: 87px;
+}
+
+.search {
+	background: #1AAAE2;
+	border-radius: 20px;
+	height: 41px;
+	width: 94px;
+	text-align: center;
+    font: Regular 16px/22px;
+    color: #FFFFFF;
+    float: right;
+    position: relative;
+    border:none;
+}
+.search2 {
+	position: relative;
+	width: 68%;
+	left: 55px;
+	top: 10px;
+	background: #F0F0F0;
+	border: none;
+}
+
+.searchbar {
+	width: 555px;
+	height: 41px;
+	background: #F0F0F0;
+	border-radius: 20px;
+    position: absolute;
+	top: 25px;
+	left: 50%;
+	margin-left: -276.5px;
+}
+
+.searchicon {
+    width: 21.55px;
+    height: 21.55px;
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 20px;
+}
+
+.logogif {
+    width: 130px;
+    height: 43.02px;
+    position: absolute;
+    padding-left: 47px;
+    padding-top: 22px;
+}
+.icons {
+	float: right;
+	width: 22%;
+	.usericon {
+		width: 42.84px;
+		height: 43.02px;
+		position: relative;
+		padding-top: 22px;
+		float: left;
+	}
+	.usericon:hover {
+		cursor: pointer;
+	}
+	.switchicon {
+		width: 22px;
+		height: 17px;
+		position: relative;
+		padding-top: 35px;
+		float: right;
+		padding-right: 44.46px;
+	}
+	.switchicon:hover {
+		cursor: pointer;
+	}
+	.logout {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		padding-top: 33px;
+		padding-right: 25px;
+		float: right;
+	}
+
+	.logout:hover {
+		cursor: pointer;
+	}
+	.welcome {
+		height: 24px;
+		font: Bold 18px/24px Open Sans;
+		color: #054A6F;
+		padding-top: 31px;
+		position: relative;
+		float: left;
+		padding-left: 55.16px;
+	}
+}
+	.dropdownmenu {
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		right: 140px;
+		padding-top: 5px;
+	}
+
+	.dropdownmenu:hover {
+		cursor: pointer;
+	}
+
+

@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header {
+    height: 87px;
+    widows: 1920px;    
+    background: #FFFFFF;   
+}
+
+#logo {
+	width: 1621px;
+	height: 42px;
+	background: #1AAAE2;
+	text-align: left;
+	font: Bold 31px/42px Open Sans;
+	color: white;
+	left: 215px;
+	position: relative;
+	padding: 15px 42px;
+}
+
+nav {
+	float: left;
+	background: #113250;
+	height: 966px;
+	width: 182px;
+	text-align: left;
+	font: Semibold 16px/22px Open Sans;
+	color: white;
+	padding-left: 33px;
+	padding-top: 27px;
+
+
+}
+
+
+
+#empty {
+	height: 60px;
+	border: 1px solid #C9C9C9;
+	background: #F7F7F7;
+
+}
+
+#content {
+	margin: 10px;
+	border-radius: 4px;
+	float: left;
+	width: 1675px;
+	height: 891px;
+	border: 1px solid #C9C9C9;
+}
+
+#delivery {
+	margin-left: 40px;
+	margin-top: 20px;
+	color: #054A6F;
+	font-size: 38px;
+
+}
+
+#form1 {
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+}
+
+#form2 {
+	width: 50%;
+	float: left;
+	margin-top: 30px;
+}
+
+form {
+
+	height: 228px;
+	text-align: left;
+	font: Bold 16px/22px Open Sans;
+	color: #054A6F;
+}
+
+
+input {
+	height: 28px;
+	width: 436px;
+	
+	text-align: right;
+
+
+}
+
+label {
+	width: 226px;
+	height: 22px;
+	text-align: left;
+}
+
+#searc {
+	width: 573px;
+	height: 40px;
+	border: 1px solid black;
+	padding-top: 19px;
+	text-align: center;
+	left: 614px;
+	position: relative;
+	background: #F0F0F0;
+	box-shadow: 0px 3px 6px #00000029;
+}
+
+h3 {
+	text-align: right;
+	margin-top: 31px;
+	margin-bottom: 32px;
+}
+
+ input #save {
+	width: 94px;
+	height: 41px;
+	background: #1AAAE2;
+	border-radius: 20px;
+}
