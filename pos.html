@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <title>Po</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <div class="searchbar">
+            <img class="searchicon" src="img\Searchicon.svg">
+            <input type="text" name="wyszukaj" class="search2">
+            <input  class="search" type="submit" name="SAVE" value="SEARCH">
+        </div>
+        <img class="logogif" src="img\logo.gif">
+        <div class="icons">
+            <img class="usericon" src="img\usericon.svg">
+            <div class="welcome">Welcome: </div>
+            <img class="switchicon" src="img\switchicon.svg">
+            <img class="logout" src="img\Logout.svg">
+        </div>
+    </header>
+</div>
+<div class="title">
+    <h1>Purchase Orders<img class="dropdownmenu" src="img\Drop-down menu - dots white.svg"></h1>
+</div>
+
+<aside>
+    <div class="menu">
+        <div>MENU<img class="Backarrow" src="img\Back Left Arrow icon.svg"></div>
+    </div>
+    <nav class="navigation">
+        <ul>
+            <li>
+                <a href="dashboard.html"><img class="menuimg" src="img\dashboard.svg"><div class="subtitle">Dashboard</div></a>
+            </li>
+            <li>
+                <a href="products.html"><img class="menuimg" src="img\orders.svg"><div class="subtitle">Products</div></a>
+            </li>
+            <li class="active">
+                <a href="po's.html"><img class="menuimg" src="img\file.svg"><div class="subtitle">PO's</div>
+                    <img class="rightarrow" src="img\rightarrow.svg"></a>
+            </li>
+            <li>
+                <a href="inbound.html"><img class="menuimg" src="img\Shippingdocs.svg"><div class="subtitle">Inbound</div></a>
+            </li>
+            <li>
+                <a href="outbound.html"><img class="menuimg" src="img\Shippingdocs.svg"><div class="subtitle">Outbound</div></a>
+            </li>
+        </ul>
+    </nav>
+</aside>
+<div class="content content--po">
+    <select class="select-css">
+        <option>Filter</option>
+        <option>Apples</option>
+        <option>Bananas</option>
+        <option>Grapes</option>
+        <option>Oranges</option>
+    </select>
+
+            <table class="po-header">
+                <thead>
+                <tr>
+                    <th>PO Date</th>
+                    <th>PO Number</th>
+                    <th>Supplier</th>
+                    <th>Supplier Country</th>
+                    <th>Delivery terms</th>
+                    <th>Delivery date</th>
+                    <th>Promised date</th>
+                </tr>
+                <tr class="po-searchbars">
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>2019-03-03</th>
+                    <td>456678087</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <table class="po-grey">
+                            <tbody>
+                            <tr>
+                                <th>Line</th><th>Material No.</th><th>Qty.</th><th>Remaining Qty</th><th>Delivery date</th><th>Promised date</th><th class="checkbox"><input class="checkbox" type="checkbox"></th>
+                            </tr>
+                            <tr>
+                                <th>000001</th><td>DBX001</td><td>1000</td><td>1000</td><td>2019-07-08</td><td>2019-07-08</td><td  class="checkbox"><input class="checkbox" type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <th>000002</th><td>DBX002</td><td>1000</td><td>1000</td><td>2019-07-09</td><td>2019-07-08</td><td  class="checkbox"><input class="checkbox" type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <th>000003</th><td>DBX003</td><td>1000</td><td>1000</td><td>2019-07-10</td><td>2019-07-08</td><td  class="checkbox no"><input  class="checkbox" type="checkbox"></td>
+                                <td class="--no-border"><input class="button" type="button" value="CREATE IBD"></td>
+                            </tr>
+                            <tr><td colspan="7" class="--no-border"></tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <table class="po-overview">
+                            <tbody>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr>
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr>
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>"Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayern</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr>
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr>
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr>
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr>
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            <tr class="product_row">
+                                <th>2019-03-03</th>
+                                <td>456789879</td><td>Bayer</td><td>SE</td><td>EXW</td><td>2019-09-08</td><td>2019-09-12</td>
+                                <td><img src="img\down arrow.svg"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+</body>
